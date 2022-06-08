@@ -5,7 +5,7 @@ function solution(numbers) {
   let diff = int.filter(x => !numbers.includes(x));
   
   let answer = diff.reduce(function add(sum, currValue) {
-      return sum + currValue;
+    return sum + currValue;
   }, 0);
   
   return answer;
